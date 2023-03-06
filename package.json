@@ -4,8 +4,8 @@
   "description": "test",
   "main": "app.js",
   "scripts": {
-    "watch": "parcel src/index.html",
-    "build": "parcel src/index.html"
+    "watch": "parcel src/*.html",
+    "build": "parcel src/*.html"
   },
   "repository": {
     "type": "git",
