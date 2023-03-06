@@ -1,11 +1,11 @@
-import validate from './js/validate';
+// import validate from './js/validate';
+// import * as ipservice from './js/ipservice';
+// import { addUser } from './js/ipservice';
 
-import * as ipservice from './js/ipservice';
+// addUser('mango');
 
-import { addUser } from './js/ipservice';
+// console.log(ipservice);
 
-addUser('mango');
+// console.log(validate('asdfdd'));
 
-console.log(ipservice);
-
-console.log(validate('asdfdd'));
+import { addUser } from './js/1-localstorage';
