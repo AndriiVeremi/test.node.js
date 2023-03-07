@@ -2,7 +2,7 @@
   "name": "test.node",
   "version": "1.0.0",
   "description": "test",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "watch": "parcel src/*.html",
     "build": "parcel src/index.html"

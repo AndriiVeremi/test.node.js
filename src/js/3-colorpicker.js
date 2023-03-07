@@ -1,16 +1,18 @@
 import colorCardTpl from '../templates/color-cards.hbs';
+import colorCardAllTpl from '../templates/color-cardz.hbs';
 import colors from './colors.json';
+
 
 const paletteContainer = document.querySelector('.js-palette');
 const cardsMarkup = createColorCardsMarkup(colors);
 
 paletteContainer.insertAdjacentHTML('beforeend', cardsMarkup);
-
 paletteContainer.addEventListener('click', onPaletteContainerClick)
 
 function createColorCardsMarkup(colors) {
-    return colors
-        .map(colorCardTpl).join('');
+
+    // return colors.map(colorCardTpl).join('');  //-------color-cards
+    return colorCardAllTpl(colors);               //-------color-cardz        
 }
 
 function onPaletteContainerClick(evt) {

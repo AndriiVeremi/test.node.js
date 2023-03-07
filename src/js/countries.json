@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Австралія",
+    "capital": "Канбера",
+    "currency": "Долар",
+    "language": "Англійський",
+    "infected": false,
+    "flag": "https://cdn.pixabay.com/photo/2012/04/10/23/01/indonesia-26817_960_720.png",
+    "population": 231568
+  },
+  {
+    "name": "Болівія",
+    "capital": "Сукре",
+    "currency": "Болівіано",
+    "language": "Іспанскій",
+    "infected": true,
+    "flag": "https://cdn.pixabay.com/photo/2013/07/13/14/17/ukraine-162450_960_720.png",
+    "population": 114568
+  },
+  {
+    "name": "Великобританія",
+    "capital": "Лондон",
+    "currency": "Фунт",
+    "language": "Англійський",
+    "infected": false,
+    "flag": "https://cdn.pixabay.com/photo/2012/04/10/23/05/china-26841_960_720.png",
+    "population": 41568
+  }
+]
