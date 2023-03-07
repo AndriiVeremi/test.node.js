@@ -17,12 +17,13 @@
     "url": "https://github.com/AndriiVeremi/test.node.js/issues"
   },
   "homepage": "https://github.com/AndriiVeremi/test.node.js#readme",
-  "dependencies": { 
+  "dependencies": {
     "joi": "^17.8.3",
+    "lodash.throttle": "^4.1.1",
     "shortid": "^2.2.16"
   },
   "devDependencies": {
-    "parcel": "^2.8.3"
+    "parcel": "^2.8.3",
+    "parcel-plugin-handlebars-precompile": "^1.0.2"
   }
 }
-
