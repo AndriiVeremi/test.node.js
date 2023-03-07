@@ -2,10 +2,10 @@
   "name": "test.node",
   "version": "1.0.0",
   "description": "test",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "watch": "parcel src/*.html",
-    "build": "parcel src/*.html"
+    "build": "parcel src/index.html"
   },
   "repository": {
     "type": "git",
