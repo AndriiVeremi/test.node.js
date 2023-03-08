@@ -4,8 +4,8 @@
   "description": "test",
   "main": "src/index.js",
   "scripts": {
-    "watch": "parcel src/*.html",
-    "build": "parcel src/index.html"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/*.html --public-url /AndriiVeremi/test.node.js/tree/command-palette/"
   },
   "repository": {
     "type": "git",
