@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "parcel": "^2.8.3",
-    "parcel-plugin-handlebars-precompile": "^1.0.2"
+    "parcel-plugin-custom-dist-structure": "^1.1.18"
   }
+  
 }
