@@ -2,10 +2,10 @@
   "name": "test.node",
   "version": "1.0.0",
   "description": "test",
-  "main": "app.js",
+  "main": "src/index.js",
   "scripts": {
-    "watch": "parcel src/*.html",
-    "build": "parcel src/*.html"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/*.html --public-url /AndriiVeremi/test.node.js/tree/command-palette/"
   },
   "repository": {
     "type": "git",
@@ -17,12 +17,14 @@
     "url": "https://github.com/AndriiVeremi/test.node.js/issues"
   },
   "homepage": "https://github.com/AndriiVeremi/test.node.js#readme",
-  "dependencies": { 
+  "dependencies": {
     "joi": "^17.8.3",
+    "lodash.throttle": "^4.1.1",
     "shortid": "^2.2.16"
   },
   "devDependencies": {
-    "parcel": "^2.8.3"
+    "parcel": "^2.8.3",
+    "parcel-plugin-custom-dist-structure": "^1.1.18"
   }
+  
 }
-
